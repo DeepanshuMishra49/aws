@@ -1,2 +1,15 @@
 What is Hypervisor ??
-Hypervisor is a software which is used to create and manage virtual machines
+Hypervisor is a software which is used to create and manage virtual machines.
+A virtualization layer allows us to run different OS on our host OS . 
+Like if we have windows OS so we can macos and linux in it using virtualization( by create vms for each os on our host os)
+Hypervisors is of two types 
+1) Type 1 (Bare Metal)
+   -- In this type we add hypervisor directly to the hardware. for ex VMware ESXi, Microsoft Hyper-V, Citrix Hypervisor (formerly XenServer), and Xen Project/XCP-ng.
+2) Type 2 (Hosted)
+   -- In this type we add hypervisor in the present OS(Host OS) so that we can run other OS from the host OS. for ex 
+  VMware Workstation, VMware Fusion, Oracle VirtualBox, and Parallels Desktop.
+
+Features of using Virtualization 
+1) Cheap
+2) Reduce cost for multiple OS
+3) Can Test an application from the same OS(Windows) for other OS (Linux, MacOS etc).
